@@ -1,0 +1,61 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+.main-page {
+  width: 100%;
+  height: 100vh;
+  clip-path: circle(3%);
+}
+
+/* we want to cover everything in the front page */
+.main-page video {
+  width: 100%;
+  height: 100vh;
+  object-fit: cover;
+}
+
+.intro-text,
+.cat-svg {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  z-index: 100;
+}
+
+.cat-svg {
+  height: 20rem;
+}
+.blend {
+  width: 100%;
+  height: 100vh;
+  position: absolute;
+  background-color: black;
+  opacity: 0.3;
+}
+
+.title {
+  font-size: 5rem;
+  padding-bottom: 1rem;
+}
+
+.sub-title {
+  font-size: 1.5rem;
+}
+
+.second-page {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-color: #f3f6f4;
+  padding: 0 10%;
+}
+.second-page h2 {
+  font-size: 3rem;
+}
